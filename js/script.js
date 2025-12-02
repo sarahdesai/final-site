@@ -1,7 +1,9 @@
+// used google AI overview for starter code for switching gifs
+
 const gifDisplay = document.getElementById('gifDisplay');
 const gif1Src = 'gifs/scroll-mukbang.gif';
 const gif2Src = 'gifs/watch-mukbang.gif';
-const displayDuration = 900; // Time in milliseconds (1 seconds)
+const displayDuration = 800; // Time in milliseconds (1 seconds)
 
 setTimeout(switchGif, displayDuration);
 
@@ -18,7 +20,7 @@ function switchGif() {
 const gifDisplay2 = document.getElementById('gifDisplay2');
 const gif3Src = 'gifs/scroll-news.gif';
 const gif4Src = 'gifs/watch-news.gif';
-const displayDuration2 = 900; // Time in milliseconds (1 seconds)
+const displayDuration2 = 800; // Time in milliseconds (1 seconds)
 
 setTimeout(switchGif2, displayDuration2);
 
@@ -35,7 +37,7 @@ function switchGif2() {
 const gifDisplay3 = document.getElementById('gifDisplay3');
 const gif5Src = 'gifs/scroll-cats.gif';
 const gif6Src = 'gifs/watch-cats.gif';
-const displayDuration3 = 900; // Time in milliseconds (1 seconds)
+const displayDuration3 = 800; // Time in milliseconds (1 seconds)
 
 setTimeout(switchGif3, displayDuration3);
 
