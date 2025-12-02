@@ -2,38 +2,52 @@ body {
     font-family: "Rubik Burned", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
+img {
+  width: 700px;
+  margin: auto;
+}
 
-/* Container needed to position the button. Adjust the width as needed */
-/* .graphic {
-  position: relative;
-  width: 100%;
-} */
+h1 {
+  padding-top: 25px;
+  margin: auto;
+}
 
-/* Make the image responsive */
-/* .graphic img {
-  width: 100%;
-  height: auto;
-} */
-
-/* Style the button and place it in the middle of the container/image */
-/* .container .btn {
+.button {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
+  top: 50%;
+  left: 45.5%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Rubik Burned";
+  font-size: 1.5rem;
+  padding: 24px 30px;
+  border: dashed;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-.container .btn:hover {
-  background-color: black;
-}  */
+.button2 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Rubik Burned";
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border: dashed;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  color: #737373;
+}
+
+.button2:hover {
+  background-color: #f1f1f1;
+}
